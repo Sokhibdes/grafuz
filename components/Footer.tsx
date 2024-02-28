@@ -93,7 +93,7 @@ const Footer: React.FC<FooterProps> = () => {
                <div className="col-span-3 max-md:block hidden mt-8">
                   <ul className="flex items-center justify-center gap-4">
                      <li className="">
-                        <Link href={"#"}>
+                        <Link href={"https://www.instagram.com/grafuz_/"}>
                            <Image
                               className="w-14 h-14"
                               src={"/images/social/mb-Instagram.svg"}
@@ -104,13 +104,13 @@ const Footer: React.FC<FooterProps> = () => {
                         </Link>
                      </li>
                      <li className="">
-                        <Link href={"#"}>
+                        <Link href={"https://www.youtube.com/@Grafuz_sa/"}>
                            <Image
                               className="w-14 h-14"
                               src={"/images/social/mb-youtube.svg"}
                               width={1000}
                               height={1000}
-                              alt="Instagram"
+                              alt="Youtube"
                            />
                         </Link>
                      </li>
@@ -121,18 +121,18 @@ const Footer: React.FC<FooterProps> = () => {
                               src={"/images/social/mb-tiktok.svg"}
                               width={1000}
                               height={1000}
-                              alt="Instagram"
+                              alt="Tiktok"
                            />
                         </Link>
                      </li>
                      <li className="">
-                        <Link href={"#"}>
+                        <Link href={"https://t.me/grafuz_sa"}>
                            <Image
                               className="w-14 h-14"
                               src={"/images/social/telegram.png"}
                               width={1000}
                               height={1000}
-                              alt="Instagram"
+                              alt="Telegram"
                            />
                         </Link>
                      </li>
@@ -145,7 +145,7 @@ const Footer: React.FC<FooterProps> = () => {
                   <div className="w-20 h-20">
                      <Image
                         priority
-                        src={"/images/logo-white.svg"}
+                        src={"/images/g-footer.png"}
                         width={1000}
                         height={1000}
                         alt="logo"
