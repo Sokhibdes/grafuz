@@ -125,7 +125,7 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
             </div>
 
             <div className="grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-x-14 max-2xl:gap-x-7 max-xl:gap-x-5 gap-y-24">
-               <Link href={"#"}>
+              
                   <Glow
                      style={{ display: "block" }}
                      debug={false}
@@ -241,9 +241,9 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                         </motion.div>
                      }
                   </Glow>
-               </Link>
+               
 
-               <Link href={"#"} className="h-fit max-lg:overflow-hidden">
+               <Div  className="h-fit max-lg:overflow-hidden">
                   <Glow
                      style={{ display: "block" }}
                      debug={false}
@@ -373,9 +373,9 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                         </motion.div>
                      }
                   </Glow>
-               </Link>
+               </Div>
 
-               <Link href={"#"}>
+               
                   <Glow
                      style={{ display: "block" }}
                      debug={false}
@@ -520,7 +520,7 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                         </motion.div>
                      }
                   </Glow>
-               </Link>
+               
             </div>
          </div>
       </GlowCapture>
