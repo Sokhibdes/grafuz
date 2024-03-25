@@ -10,14 +10,14 @@ const social = [
       icon: "instagram",
       bg: "#C21975",
       title: "Instagram",
-      link: "#",
+      link: "https://www.instagram.com/grafuz_/",
    },
    {
       id: 1,
       icon: "you-tube",
       bg: "red",
       title: "Youtube",
-      link: "#",
+      link: "https://www.youtube.com/channel/UCtphgxqcSJOXHEVaB_EK3pw?sub_confirmation=1",
    },
    {
       id: 2,
@@ -31,21 +31,21 @@ const social = [
       icon: "telegram",
       bg: "#1E96C8",
       title: "Telegram",
-      link: "#",
+      link: "https://t.me/grafuz_sa",
    },
    {
       id: 5,
       icon: "phone",
       bg: "#7800B0",
-      title: "20 002-09-08",
-      link: "tel:20 002-09-08",
+      title: "(+998)33 600-90-09",
+      link: "tel:+998336009009",
    },
    {
       id: 6,
       icon: "telegram",
       bg: "#1E96C8",
       title: "Telegram",
-      link: "#",
+      link: "https://t.me/grafuz_support",
    },
 ];
 
@@ -159,18 +159,18 @@ const Footer: React.FC<FooterProps> = () => {
                         Materiallarni nusxalash taqiqlanadi.
                      </p>
                   </div>
-                  <div className="max-md:text-center">
+                  {/*<div className="max-md:text-center">
                      <p className="max-sm:text-[10px] tracking-[0.374px] text-[#ffffff4d]">
                         Maxfiylik siyosati
                      </p>
                      <p className="max-sm:text-[10px] tracking-[0.374px] text-[#ffffff4d]">
                         Shartnoma
                      </p>
-                  </div>
+                  </div>*/}
                </div>
 
                <div className="flex items-center gap-5 max-lg:mt-3">
-                  <Link href={"#"}>
+                  {/*<Link href={"#"}>
                      <Image
                         className="w-28"
                         priority
@@ -199,7 +199,7 @@ const Footer: React.FC<FooterProps> = () => {
                         height={1000}
                         alt="click"
                      />
-                  </Link>
+                  </Link>*/}
                </div>
             </div>
          </div>
