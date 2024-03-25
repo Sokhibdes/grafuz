@@ -16,7 +16,7 @@ const Social: React.FC<SocialProps> = ({ social }) => {
          key={social}
          className="text-2xl max-lg:text-xl max-sm:text-sm font-semibold leading-[42px] tracking-[0.374px] text-white"
       >
-         <Link href={"#"} className="flex items-center gap-4 max-md:gap-2">
+         <Link href={social.link} className="flex items-center gap-4 max-md:gap-2">
             <div className="relative">
                <div
                   style={{
