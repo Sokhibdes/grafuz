@@ -243,7 +243,7 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                   </Glow>
                
 
-               <Div  className="h-fit max-lg:overflow-hidden">
+               <div  className="h-fit max-lg:overflow-hidden">
                   <Glow
                      style={{ display: "block" }}
                      debug={false}
@@ -373,7 +373,7 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                         </motion.div>
                      }
                   </Glow>
-               </Div>
+               </div>
 
                
                   <Glow
