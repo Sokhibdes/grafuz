@@ -125,7 +125,7 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
             </div>
 
             <div className="grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-x-14 max-2xl:gap-x-7 max-xl:gap-x-5 gap-y-24">
-              
+               <Link href={"https://t.me/grafuz_standart"}>
                   <Glow
                      style={{ display: "block" }}
                      debug={false}
@@ -216,14 +216,12 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                                  </ul>
                               </div>
                               <div className="">
-                                 <Link href="https://t.me/grafuz_standart">
                                  <button
                                     onClick={() => console.log("click")}
                                     className="cursor-pointer glow:ring-4 glow:bg-glow glow:ring-glow || w-full text-[25px] max-xl:text-[22px] max-lg:text-[18px] font-bold py-3 rounded-full bg-gradient-to-r from-[#ffffff33] from-[10.42%] to-[#ffffff0a] to-[77.11%] text-white"
                                  >
                                     Kursga yozilish
                                  </button>
-                                 </Link>
                                  <p className="text-[20px] text-center mt-5 max-xl:mt-3 text-[#ffffff42]">
                                     *1 ta guruhda 12 ta ishtirokchi
                                  </p>
@@ -241,9 +239,9 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                         </motion.div>
                      }
                   </Glow>
-               
+               </Link>
 
-               <div  className="h-fit max-lg:overflow-hidden">
+               <Link href={"https://t.me/grafuz_premium"} className="h-fit max-lg:overflow-hidden">
                   <Glow
                      style={{ display: "block" }}
                      debug={false}
@@ -357,14 +355,12 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                                  className="testclick"
                                  onClick={() => console.log("click")}
                               >
-                                 <Link href="https://t.me/grafuz_premium">
                                  <button
                                     onClick={() => console.log("click")}
                                     className="abc glow:ring-4 glow:bg-glow glow:ring-glow || w-full text-[25px] max-xl:text-[22px] max-lg:text-[18px] font-bold py-3 rounded-full bg-gradient-to-r from-[#ffffff33] from-[10.42%] to-[#ffffff0a] to-[77.11%] text-white"
                                  >
                                     Kursga yozilish
                                  </button>
-                                 </Link>
                                  <p className="text-[20px] text-center mt-5 max-xl:mt-3 text-[#ffffff42]">
                                     *1 ta guruhda 8 ta ishtirokchi
                                  </p>
@@ -373,9 +369,9 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                         </motion.div>
                      }
                   </Glow>
-               </div>
+               </Link>
 
-               
+               <Link href={"https://t.me/grafuz_vip"}>
                   <Glow
                      style={{ display: "block" }}
                      debug={false}
@@ -494,14 +490,12 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                                  </ul>
                               </div>
                               <div className="">
-                                 <Link href="https://t.me/grafuz_vip">
                                  <button
                                     onClick={() => console.log("click")}
                                     className="cursor-pointer glow:ring-4 glow:ring-glow glow:bg-glow || w-full text-[25px] max-xl:text-[22px] max-lg:text-[18px] font-bold py-3 rounded-full bg-gradient-to-r from-[#ffffff33] from-[10.42%] to-[#ffffff0a] to-[77.11%] text-white"
                                  >
                                     Kursga yozilish
                                  </button>
-                                 </Link>
                                  <p className="text-[20px] text-center mt-5 max-xl:mt-3 text-[#ffffff42]">
                                     *1 ta guruhda 5 ta ishtirokchi
                                  </p>
@@ -520,7 +514,7 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                         </motion.div>
                      }
                   </Glow>
-               
+               </Link>
             </div>
          </div>
       </GlowCapture>
