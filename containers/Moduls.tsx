@@ -137,6 +137,10 @@ const arr = [
             id: 2,
             modul: "-SMM postni animatsiya qilish",
          },
+         {
+            id: 3,
+            modul: "Logo animatsiya",
+         },
       ],
    },
    {
