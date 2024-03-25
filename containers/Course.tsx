@@ -66,7 +66,7 @@ const Course: React.FC<CourseProps> = () => {
                            barcha bilimga ega bo’lasiz.
                         </p>
                      </div>
-                     <div className="">
+                     <Link href="https://www.youtube.com/watch?v=QW5zj8fZ4RY&t=140s" target="_blank" className="">
                         <motion.button
                            whileTap={{ scale: 0.95 }}
                            className="max-sm:w-full flex items-center max-sm:justify-center gap-3 py-3 px-6 max-sm:px-4 text-[25px] max-lg:text-[18px] font-bold leading-[41px] rounded-xl bg-gradient-to-tr from-[#cc00ff7d] from-[10.42%] to-[#074dff80] to-[77.11%] text-white"
@@ -86,7 +86,7 @@ const Course: React.FC<CourseProps> = () => {
                               />
                            </svg>
                         </motion.button>
-                     </div>
+                     </Link>
                   </motion.div>
 
                   <motion.div
