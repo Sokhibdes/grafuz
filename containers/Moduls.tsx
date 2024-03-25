@@ -11,6 +11,7 @@ const arr = [
    {
       id: 0,
       title: "Adobe Photoshop dasturiga kirish",
+      image: "/images/fire.png",
 
       moduls: [
          {
@@ -42,6 +43,7 @@ const arr = [
    {
       id: 1,
       title: "Dizayn asoslari",
+      image: "",
 
       moduls: [
          {
@@ -65,6 +67,7 @@ const arr = [
    {
       id: 2,
       title: "SMM dizayn",
+      image: "",
 
       moduls: [
          {
@@ -96,6 +99,7 @@ const arr = [
    {
       id: 3,
       title: "Animatsiya asoslari",
+      image: "",
 
       moduls: [
          {
@@ -123,6 +127,7 @@ const arr = [
    {
       id: 4,
       title: "Animatsiya yaratish",
+      image: "",
 
       moduls: [
          {
@@ -137,15 +142,12 @@ const arr = [
             id: 2,
             modul: "-SMM postni animatsiya qilish",
          },
-         {
-            id: 3,
-            modul: "Logo animatsiya",
-         },
       ],
    },
    {
       id: 5,
       title: "Montaj asoslari",
+      image: "",
 
       moduls: [
          {
@@ -177,7 +179,7 @@ const arr = [
    {
       id: 6,
       title: "Youtube obloshka yasash",
-
+      image: "",
       moduls: [
          {
             id: 0,
@@ -204,6 +206,7 @@ const arr = [
    {
       id: 7,
       title: "Mijozlar bilan ishlash",
+      image: "",
 
       moduls: [
          {
@@ -227,6 +230,7 @@ const arr = [
    {
       id: 8,
       title: "Neyrosetlar bilan ishlash",
+      image: "",
 
       moduls: [
          {
@@ -250,6 +254,7 @@ const arr = [
    {
       id: 9,
       title: "VFX",
+      image: "",
 
       moduls: [
          {
@@ -293,7 +298,6 @@ const Moduls: React.FC<ModulsProps> = () => {
    const nextHandler = () => {
       swiperRef.slideNext();
    };
-
    return (
       <div className="custom-container">
          <div className="flex justify-center my-14">
@@ -408,7 +412,6 @@ const Moduls: React.FC<ModulsProps> = () => {
                </h2>
             </motion.div>
          </div>
-
          <div className="max-sm:block hidden mb-10">
             <div className="flex items-center justify-around mb-5">
                <button
@@ -559,7 +562,6 @@ const Moduls: React.FC<ModulsProps> = () => {
                ) : null}
                <Range active={active} setActive={setActive} />
             </motion.div>
-
             <motion.div
                initial={{
                   opacity: 0,
@@ -616,7 +618,6 @@ const Moduls: React.FC<ModulsProps> = () => {
                      );
                   })}
                </ul>
-
                {arr.map((item: any) => {
                   if (active === item.id + 1) {
                      return (
@@ -678,7 +679,7 @@ const Moduls: React.FC<ModulsProps> = () => {
                               >
                                  <Image
                                     className="object-cover w-full h-full"
-                                    src={"/images/bg-blue.svg"}
+                                    src={item.image}
                                     width={1000}
                                     height={1000}
                                     alt="bg-blue"
