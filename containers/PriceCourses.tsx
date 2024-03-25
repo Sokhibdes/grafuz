@@ -216,14 +216,16 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                                  </ul>
                               </div>
                               <div className="">
+                                 <Link href="https://t.me/grafuz_standart">
                                  <button
                                     onClick={() => console.log("click")}
                                     className="cursor-pointer glow:ring-4 glow:bg-glow glow:ring-glow || w-full text-[25px] max-xl:text-[22px] max-lg:text-[18px] font-bold py-3 rounded-full bg-gradient-to-r from-[#ffffff33] from-[10.42%] to-[#ffffff0a] to-[77.11%] text-white"
                                  >
                                     Kursga yozilish
                                  </button>
+                                 </Link>
                                  <p className="text-[20px] text-center mt-5 max-xl:mt-3 text-[#ffffff42]">
-                                    *1 ta guruhda 15 ta ishtirokchi
+                                    *1 ta guruhda 12 ta ishtirokchi
                                  </p>
                               </div>
                               <div className="blur-sm like custom-select-none duration-300 ease-in w-96 absolute -left-40 -bottom-32 z-[-2]">
@@ -278,7 +280,7 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                               </div>
                               <div className="flex gap-4">
                                  <p className="text-[44px] max-2xl:text-[36px] max-xl:text-[35px] max-lg:text-[24px] font-bold tracking-[0.374px] text-white">
-                                    4 781 957
+                                    4 700 000
                                  </p>
                                  <p className="text-[26px] font-medium text-white">
                                     UZS
@@ -286,7 +288,7 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                               </div>
                               <div className="">
                                  <p className="text-[20px] line-through text-[#ffffff52]">
-                                    5 260 152 UZS
+                                    6 700 000 UZS
                                  </p>
                               </div>
                               <div className="thunder custom-select-none w-52 absolute -right-24 max-xl:-right-20 max-lg:-right-16 top-0">
@@ -355,12 +357,14 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                                  className="testclick"
                                  onClick={() => console.log("click")}
                               >
+                                 <Link href="https://t.me/grafuz_premium">
                                  <button
                                     onClick={() => console.log("click")}
                                     className="abc glow:ring-4 glow:bg-glow glow:ring-glow || w-full text-[25px] max-xl:text-[22px] max-lg:text-[18px] font-bold py-3 rounded-full bg-gradient-to-r from-[#ffffff33] from-[10.42%] to-[#ffffff0a] to-[77.11%] text-white"
                                  >
                                     Kursga yozilish
                                  </button>
+                                 </Link>
                                  <p className="text-[20px] text-center mt-5 max-xl:mt-3 text-[#ffffff42]">
                                     *1 ta guruhda 8 ta ishtirokchi
                                  </p>
@@ -403,12 +407,12 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                                     VIP
                                  </p>
                                  <p className="bg-white px-2 py-2 font-medium leading-3 rounded-lg">
-                                    -10%
+                                    -30%
                                  </p>
                               </div>
                               <div className="flex gap-4">
                                  <p className="text-[43px] max-2xl:text-[36px] max-xl:text-[35px] max-lg:text-[24px] font-bold text-white">
-                                    5 972 247
+                                    5 500 000
                                  </p>
                                  <p className="text-[26px] font-medium text-white">
                                     UZS
@@ -416,7 +420,7 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                               </div>
                               <div className="">
                                  <p className="text-[20px] line-through text-[#ffffff52]">
-                                    6 569 471 UZS
+                                    7 800 000 UZS
                                  </p>
                               </div>
                            </div>
@@ -490,12 +494,14 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                                  </ul>
                               </div>
                               <div className="">
+                                 <Link href="https://t.me/grafuz_vip">
                                  <button
                                     onClick={() => console.log("click")}
                                     className="cursor-pointer glow:ring-4 glow:ring-glow glow:bg-glow || w-full text-[25px] max-xl:text-[22px] max-lg:text-[18px] font-bold py-3 rounded-full bg-gradient-to-r from-[#ffffff33] from-[10.42%] to-[#ffffff0a] to-[77.11%] text-white"
                                  >
                                     Kursga yozilish
                                  </button>
+                                 </Link>
                                  <p className="text-[20px] text-center mt-5 max-xl:mt-3 text-[#ffffff42]">
                                     *1 ta guruhda 5 ta ishtirokchi
                                  </p>
