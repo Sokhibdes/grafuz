@@ -12,6 +12,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   scroll-behavior: smooth;
 }
 
 ul,
@@ -208,18 +209,23 @@ main {
          &-3 {
             @include bullet(40%);
          }
+
          &-4 {
             @include bullet(50%);
          }
+
          &-5 {
             @include bullet(60%);
          }
+
          &-6 {
             @include bullet(70%);
          }
+
          &-7 {
             @include bullet(80%);
          }
+
          &-8 {
             @include bullet(90%);
          }
@@ -247,9 +253,11 @@ main {
    0% {
       @apply -bottom-16;
    }
+
    50% {
       @apply -bottom-32;
    }
+
    100% {
       @apply -bottom-16;
    }
@@ -259,9 +267,11 @@ main {
    0% {
       @apply -top-1;
    }
+
    50% {
       @apply top-1;
    }
+
    100% {
       @apply -top-1;
    }
@@ -271,9 +281,11 @@ main {
    0% {
       @apply -bottom-16;
    }
+
    50% {
       @apply -bottom-0;
    }
+
    100% {
       @apply -bottom-16;
    }

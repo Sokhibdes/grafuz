@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Social from "./children/Social";
 
-interface FooterProps {}
+interface FooterProps { }
 
 const social = [
    {
@@ -60,13 +60,13 @@ const Footer: React.FC<FooterProps> = () => {
                   </h3>
                   <ul>
                      <li className="text-2xl max-lg:text-xl max-sm:text-sm font-semibold leading-[42px] tracking-[0.374px] text-white">
-                        <Link href={"#"}>Modullar</Link>
+                        <Link href={"#moduls"}>Modullar</Link>
                      </li>
                      <li className="text-2xl max-lg:text-xl max-sm:text-sm font-semibold leading-[42px] tracking-[0.374px] text-white">
-                        <Link href={"#"}>Kurs haqida</Link>
+                        <Link href={"#course-info"}>Kurs haqida</Link>
                      </li>
                      <li className="text-2xl max-lg:text-xl max-sm:text-sm font-semibold leading-[42px] tracking-[0.374px] text-white">
-                        <Link href={"#"}>Narxi</Link>
+                        <Link href={"#price"}>Narxi</Link>
                      </li>
                   </ul>
                </div>

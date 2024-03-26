@@ -285,7 +285,7 @@ const arr = [
    },
 ];
 
-interface ModulsProps {}
+interface ModulsProps { }
 
 const Moduls: React.FC<ModulsProps> = () => {
    const [active, setActive] = useState(1);
@@ -299,7 +299,7 @@ const Moduls: React.FC<ModulsProps> = () => {
       swiperRef.slideNext();
    };
    return (
-      <div className="custom-container">
+      <div id={"moduls"} className="custom-container">
          <div className="flex justify-center my-14">
             <motion.div
                initial={{
@@ -590,11 +590,10 @@ const Moduls: React.FC<ModulsProps> = () => {
                         <motion.li
                            onClick={() => setActive(item + 1)}
                            key={item}
-                           className={`w-full flex items-center justify-center text-[14px] max-xl:text-[10px] max-md:text-[8px] cursor-pointer ${
-                              active === item + 1
+                           className={`w-full flex items-center justify-center text-[14px] max-xl:text-[10px] max-md:text-[8px] cursor-pointer ${active === item + 1
                                  ? "border-x-2 border-[#ffffff1a] text-[#fff] bg-[#ffffff0f]"
                                  : "border-b-2 border-[#ffffff1a] text-[#ffffff33]"
-                           }`}
+                              }`}
                         >
                            <motion.button
                               initial={{

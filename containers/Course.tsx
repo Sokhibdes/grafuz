@@ -6,7 +6,7 @@ import {
    MouseParallaxChild,
 } from "react-parallax-mouse";
 
-interface CourseProps {}
+interface CourseProps { }
 
 const Course: React.FC<CourseProps> = () => {
    return (
@@ -14,7 +14,7 @@ const Course: React.FC<CourseProps> = () => {
          <div className="mt-28 w-full h-1 bg-gradient-to-r from-[#00C2FF] to-[#364064]"></div>
          <MouseParallaxContainer className="overscroll-none">
             <div className="bg-gradient-to-r from-[#0B0414] from-1.3% to-[#18234A] to-90.92% py-40 max-md:py-28 max-sm:py-16">
-               <div className="custom-container relative flex max-md:flex-col max-md:gap-28 items-center justify-between max-md:justify-center">
+               <div id={"course-info"} className="custom-container relative flex max-md:flex-col max-md:gap-28 items-center justify-between max-md:justify-center">
                   <div className="w-full h-[618.55px] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/4 custom-select-none">
                      <Image
                         className="opacity-50"
@@ -48,17 +48,17 @@ const Course: React.FC<CourseProps> = () => {
                         </h2>
                      </div>
                      <div className="mb-8">
-                        <ul className="text-[37px] max-xl:text-[30px] max-md:text-[26px] mb-8 max-sm:text-center text-white">
-                           <li className="mb-1">
+                        <ul className="text-4xl max-xl:text-3xl max-md:text-2xl mb-8 max-sm:text-center text-white">
+                           <li className="mb-2">
                               &bull; &nbsp;Adobe Photoshop
                            </li>
-                           <li className="mb-1">
+                           <li className="mb-2">
                               &bull; &nbsp;Adobe Premiere Pro
                            </li>
-                           <li className="mb-1">
+                           <li className="mb-2">
                               &bull; &nbsp;Adobe After Effects
                            </li>
-                           <li className="mb-1">&bull; &nbsp;Adobe Audition</li>
+                           <li className="mb-2">&bull; &nbsp;Adobe Audition</li>
                            <li className="">&bull; &nbsp;Mocha PRO</li>
                         </ul>
                         <p className="text-[37px] max-xl:text-[30px] max-md:text-[20px] max-sm:leading-[25px] max-sm:text-center text-white">
@@ -66,27 +66,42 @@ const Course: React.FC<CourseProps> = () => {
                            barcha bilimga ega bo’lasiz.
                         </p>
                      </div>
-                     <Link href="https://www.youtube.com/watch?v=QW5zj8fZ4RY&t=140s" target="_blank" className="">
-                        <motion.button
-                           whileTap={{ scale: 0.95 }}
-                           className="max-sm:w-full flex items-center max-sm:justify-center gap-3 py-3 px-6 max-sm:px-4 text-[25px] max-lg:text-[18px] font-bold leading-[41px] rounded-xl bg-gradient-to-tr from-[#cc00ff7d] from-[10.42%] to-[#074dff80] to-[77.11%] text-white"
-                        >
-                           Kurs INTROsini tomosha qilish
-                           <svg
-                              className="max-lg:w-4 max-sm:hidden"
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="23"
-                              height="27"
-                              viewBox="0 0 23 27"
-                              fill="none"
+                     <div className="max-w-[451px] max-lg:max-w-[341px] max-sm:max-w-full">
+                        <div className="rounded-t-xl overflow-hidden">
+                           <iframe
+                              className="w-full h-60 max-md:h-60"
+                              src="https://www.youtube.com/embed/QW5zj8fZ4RY?si=v9LSgtO8xfPif5k5"
+                              frameBorder="0"
+                              name="iframe_a"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                              referrerPolicy="strict-origin-when-cross-origin"
+                              allowFullScreen
+                              title="course info"
+                           ></iframe>
+                        </div>
+                        <Link href="https://www.youtube.com/embed/QW5zj8fZ4RY?si=v9LSgtO8xfPif5k5" target="iframe_a" className="">
+                           <motion.button
+                              whileTap={{ scale: 0.95 }}
+                              className="max-sm:w-full flex items-center max-sm:justify-center gap-3 py-3 max-lg:py-1.5 px-6 max-sm:px-4 text-[25px] max-lg:text-[18px] font-bold leading-[41px] rounded-b-xl bg-gradient-to-tr from-[#cc00ff7d] from-[10.42%] to-[#074dff80] to-[77.11%] text-white"
                            >
-                              <path
-                                 d="M15.2049 5.3141C19.5488 8.09322 21.7208 9.48278 22.4363 11.2689C23.0099 12.701 23.0099 14.299 22.4363 15.7311C21.7208 17.5172 19.5488 18.9068 15.2049 21.6859C10.2309 24.8681 7.74386 26.4592 5.68776 26.2657C4.04425 26.111 2.53708 25.286 1.52107 23.9849C0.249999 22.3573 0.249999 19.4048 0.249999 13.5C0.249999 7.59516 0.249999 4.64274 1.52107 3.01506C2.53708 1.71399 4.04426 0.889004 5.68776 0.734317C7.74386 0.540798 10.2309 2.1319 15.2049 5.3141Z"
-                                 fill="#E0E0E0"
-                              />
-                           </svg>
-                        </motion.button>
-                     </Link>
+                              Kurs INTROsini tomosha qilish
+                              <svg
+                                 className="max-lg:w-4 max-sm:hidden"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 width="23"
+                                 height="27"
+                                 viewBox="0 0 23 27"
+                                 fill="none"
+                              >
+                                 <path
+                                    d="M15.2049 5.3141C19.5488 8.09322 21.7208 9.48278 22.4363 11.2689C23.0099 12.701 23.0099 14.299 22.4363 15.7311C21.7208 17.5172 19.5488 18.9068 15.2049 21.6859C10.2309 24.8681 7.74386 26.4592 5.68776 26.2657C4.04425 26.111 2.53708 25.286 1.52107 23.9849C0.249999 22.3573 0.249999 19.4048 0.249999 13.5C0.249999 7.59516 0.249999 4.64274 1.52107 3.01506C2.53708 1.71399 4.04426 0.889004 5.68776 0.734317C7.74386 0.540798 10.2309 2.1319 15.2049 5.3141Z"
+                                    fill="#E0E0E0"
+                                 />
+                              </svg>
+                           </motion.button>
+                        </Link>
+                     </div>
+
                   </motion.div>
 
                   <motion.div

@@ -4,12 +4,12 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { GlowCapture, Glow } from "@codaworks/react-glow";
 
-interface PriceCoursesProps {}
+interface PriceCoursesProps { }
 
 const PriceCourses: React.FC<PriceCoursesProps> = () => {
    return (
       <GlowCapture className="w-full py-32   ">
-         <div className="custom-container">
+         <div id={"price"} className="custom-container">
             <div className="flex justify-center mb-9 custom-select-none">
                <motion.div
                   initial={{
