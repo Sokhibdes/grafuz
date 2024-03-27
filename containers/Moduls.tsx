@@ -11,7 +11,7 @@ const arr = [
    {
       id: 0,
       title: "Adobe Photoshop dasturiga kirish",
-      image: "/images/fire.png",
+      image: "/images/Photoshop.png",
 
       moduls: [
          {
