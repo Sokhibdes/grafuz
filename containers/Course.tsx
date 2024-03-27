@@ -70,7 +70,7 @@ const Course: React.FC<CourseProps> = () => {
                         <div className="rounded-t-xl overflow-hidden">
                            <iframe
                               className="w-full h-60 max-md:h-60"
-                              src="https://www.youtube.com/embed/QW5zj8fZ4RY?si=v9LSgtO8xfPif5k5"
+                              src="https://www.youtube.com/watch?v=g2o9GcrXm4w"
                               frameBorder="0"
                               name="iframe_a"
                               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
