@@ -5,7 +5,7 @@ export default function Document() {
 		<Html lang="en">
 			<Head>
 				<meta charSet="utf-8"></meta>
-				<title>GRAFUZ | SOHIB ABDURAMON</title>
+				<title>GRAFUZ | SOHIB ABDURAHMON</title>
 				<meta name="description" content="Istalgan vaqtda, istalgan mavzuni, eng yaxshi narxda o'rganing!"></meta>
 				<meta
 					http-equiv="Content-Type"
@@ -25,7 +25,7 @@ export default function Document() {
 					name="keywords"
 					content="Adobe Photoshop, After Effects, Adobe Premiere Pro, Adobe Audition, Mocha PRO, SMM, ta'lim, darslar, yaratish, kurs, Design, Editing, Sound, ANIMATSIYA, MONTAJ, DIZAYN, VFX"
 				/>
-				<meta name="author" content="SOHIB ABDURAMON"></meta>
+				<meta name="author" content="SOHIB ABDURAHMON"></meta>
 				<meta property="og:title" content="Bosh sahifa"></meta>
 				<meta property="og:type" content="Learning management system"></meta>
 				<meta property="og:url" content="https://grafuz.uz/"></meta>

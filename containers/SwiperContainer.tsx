@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Mousewheel } from "swiper/modules";
 import "swiper/css";
+import { useState } from "react";
 
 
 interface SwiperContainerProps { }
@@ -240,10 +241,15 @@ const SwiperContainer: React.FC<SwiperContainerProps> = () => {
                   }}
                >
                   {[1, 2, 3, 4].map((item: number) => {
+                     const [play, setplay] = useState(false);
                      return (
                         <SwiperSlide className="flex justify-center" key={item}>
-                           <div className="w-full h-[451px] max-xl:h-[390px] max-sm:h-[300px] rounded-[48px] overflow-hidden  my-shadow bg-[#2f1c58] hover:-translate-y-3 duration-200 ease-in-out">
-                              <video height={"100%"} width={"100%"} className="aspect-video w-full h-full" controls={true}>
+                           <div
+                              onMouseEnter={() => setplay(true)}
+                              onMouseLeave={() => setplay(false)}
+                              className="w-full h-[451px] max-xl:h-[390px] max-sm:h-[300px] rounded-[48px] overflow-hidden  my-shadow bg-[#2f1c58] hover:-translate-y-3 duration-200 ease-in-out"
+                           >
+                              <video height={"100%"} width={"100%"} className="aspect-video w-full h-full" controls={play}>
                                  <source src={`/videos/video-${item}.mp4`} type="video/mp4"></source>
                               </video>
                            </div>

@@ -38,9 +38,24 @@ export default function Home() {
             <Loader />
          ) : (
             <>
-   			<Head>
-               <title>GRAFUZ | SOHIB ABDURAMON</title>
-            </Head>
+               <Head>
+                  <title>GRAFUZ | SOHIB ABDURAHMON</title>
+                  <link
+                     rel="icon"
+                     type="image/x-icon"
+                     href="/images/new_ico.svg"
+                  ></link>
+                  <meta name="description" content="Istalgan vaqtda, istalgan mavzuni, eng yaxshi narxda o'rganing!"></meta>
+                  <meta
+                     name="keywords"
+                     content="Adobe Photoshop, After Effects, Adobe Premiere Pro, Adobe Audition, Mocha PRO, SMM, ta'lim, darslar, yaratish, kurs, Design, Editing, Sound, ANIMATSIYA, MONTAJ, DIZAYN, VFX"
+                  />
+                  <meta
+                     name="viewport"
+                     content="width=device-width, initial-scale=1.0"
+                  ></meta>
+                  <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+               </Head>
 
                <main className={`overflow-hidden ${inter.className}`}>
                   <Header />
