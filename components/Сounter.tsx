@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 import { motion } from "framer-motion";
 
-interface CounterProps {}
+interface CounterProps { }
 
 const Counter: React.FC<CounterProps> = () => {
    const [stop, setStop] = useState(false);
@@ -144,9 +144,9 @@ const Counter: React.FC<CounterProps> = () => {
          <div className="mt-12 text-[43px] max-2xl:text-[28px] max-lg:text-[32px] max-md:text-[28px] max-sm:text-[20px] font-bold leading-[41px] max-xl:leading-[25px] max-md:leading-[15px] max-sm:text-center text-white">
             <p className="mb-5">O‘zingizni sinab ko‘rish uchun</p>
             <p className="">
-               <span className="pl-5 pr-7 max-xl:pr-5 max-sm:pr-3 max-xl:pl-3 max-sm:pl-2 mr-2 rounded-2xl bg-gradient-to-r from-[#844FFC] from-13.57% to-[#491EB8] to-98.35%">
+               <a href="https://lms-graf.uz/" target="_blank" className="pl-5 pr-7 max-xl:pr-5 max-sm:pr-3 max-xl:pl-3 max-sm:pl-2 mr-2 rounded-2xl bg-gradient-to-r from-[#844FFC] from-13.57% to-[#491EB8] to-98.35%">
                   bepul
-               </span>
+               </a>
                darsni qo‘lga kiriting
             </p>
          </div>

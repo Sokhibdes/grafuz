@@ -3,7 +3,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import Item from "@/components/children/Item";
 
-interface HeroProps {}
+interface HeroProps { }
 
 const Hero: React.FC<HeroProps> = () => {
    return (
@@ -150,26 +150,30 @@ const Hero: React.FC<HeroProps> = () => {
                         alt="avatar"
                      />
                   </motion.div>
-                  <motion.button
-                     initial={{
-                        opacity: 0,
-                        x: -100,
-                     }}
-                     whileInView={{
-                        opacity: 1,
-                        x: 0,
-                        transition: {
-                           delay: 0.4,
-                           type: "spring",
-                           stiffness: 100,
-                        },
-                     }}
-                     whileTap={{ scale: 0.95 }}
-                     viewport={{ once: true }}
-                     className="max-md:mt-4 max-sm:w-full py-1 px-8 text-[25px] max-lg:text-[20px] rounded-[20px] bg-gradient-to-br from-[#1f50ff57] from-[10.42%] to-[#00b8b880] to-[77.11%] text-white"
-                  >
-                     BEPUL SINAB KOʻRISH
-                  </motion.button>
+                  <div className="max-md:mx-auto w-full my-5">
+                     <motion.a
+                        href="https://lms-graf.uz/"
+                        target="_blank"
+                        initial={{
+                           opacity: 0,
+                           x: -100,
+                        }}
+                        whileInView={{
+                           opacity: 1,
+                           x: 0,
+                           transition: {
+                              delay: 0.4,
+                              type: "spring",
+                              stiffness: 100,
+                           },
+                        }}
+                        whileTap={{ scale: 0.95 }}
+                        viewport={{ once: true }}
+                        className="max-w-md max-md:max-w-full w-full block text-center max-md:mt-4 max-sm:w-full py-3 px-8 text-[25px] max-lg:text-[20px] rounded-[20px] bg-gradient-to-br from-[#1f50ff57] from-[10.42%] to-[#00b8b880] to-[77.11%] text-white"
+                     >
+                        BEPUL SINAB KOʻRISH
+                     </motion.a>
+                  </div>
                </div>
             </div>
 

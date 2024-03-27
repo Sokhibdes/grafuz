@@ -129,7 +129,7 @@ const Footer: React.FC<FooterProps> = () => {
                         <Link href={"https://t.me/grafuz_sa"}>
                            <Image
                               className="w-14 h-14"
-                              src={"/images/social/telegram.png"}
+                              src={"/images/social/telegram-group.svg"}
                               width={1000}
                               height={1000}
                               alt="Telegram"
@@ -142,7 +142,7 @@ const Footer: React.FC<FooterProps> = () => {
 
             <div className="flex max-lg:flex-col items-center justify-between mt-9">
                <div className="flex max-md:flex-col items-center gap-9 max-md:gap-5">
-                  <div className="w-20 h-20">
+                  <div className="w-20 h-20 max-sm:h-14 max-sm:w-14 max-sm:mb-2">
                      <Image
                         priority
                         src={"/images/g-footer.png"}

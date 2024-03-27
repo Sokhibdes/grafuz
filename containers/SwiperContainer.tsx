@@ -188,7 +188,7 @@ const SwiperContainer: React.FC<SwiperContainerProps> = () => {
                   },
                }}
                viewport={{ once: true }}
-               className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[41%] max-lg:-translate-y-[360px] max-md:-translate-y-[360px] max-sm:-translate-y-[300px] w-[534px] max-xl:w-[460px] max-sm:w-[380px]"
+               className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[42.5%] max-lg:-translate-y-[360px] max-md:-translate-y-[360px] max-sm:-translate-y-[300px] w-[534px] max-xl:w-[460px] max-sm:w-[380px]"
             >
                <Image
                   className="custom-select-none"
@@ -216,7 +216,7 @@ const SwiperContainer: React.FC<SwiperContainerProps> = () => {
                className="mt-40"
             >
                <Swiper
-                  loop
+                  loop={true}
                   centeredSlides={true}
                   mousewheel={true}
                   spaceBetween={20}
@@ -247,9 +247,9 @@ const SwiperContainer: React.FC<SwiperContainerProps> = () => {
                            <div
                               onMouseEnter={() => setplay(true)}
                               onMouseLeave={() => setplay(false)}
-                              className="w-full h-[451px] max-xl:h-[390px] max-sm:h-[300px] rounded-[48px] overflow-hidden  my-shadow bg-[#2f1c58] hover:-translate-y-3 duration-200 ease-in-out"
+                              className="w-fit m-auto h-[500px] max-xl:h-[400px] max-sm:h-[310px] rounded-[48px] overflow-hidden my-shadow hover:-translate-y-3 duration-200 ease-in-out"
                            >
-                              <video height={"100%"} width={"100%"} className="aspect-video w-full h-full" controls={play}>
+                              <video height={"100%"} width={"100%"} className="w-full h-full" controls={play} autoPlay muted={!play} >
                                  <source src={`/videos/video-${item}.mp4`} type="video/mp4"></source>
                               </video>
                            </div>
