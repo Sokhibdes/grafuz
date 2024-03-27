@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Mousewheel } from "swiper/modules";
 import "swiper/css";
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 
 interface SwiperContainerProps { }
@@ -224,11 +224,11 @@ const SwiperContainer: React.FC<SwiperContainerProps> = () => {
                   modules={[Mousewheel]}
                   breakpoints={{
                      0: {
-                        slidesPerView: 1,
+                        slidesPerView: 2,
                         spaceBetween: 15,
                      },
                      640: {
-                        slidesPerView: 2,
+                        slidesPerView: 3,
                         spaceBetween: 20,
                      },
                      1024: {
@@ -242,14 +242,23 @@ const SwiperContainer: React.FC<SwiperContainerProps> = () => {
                >
                   {[1, 2, 3, 4].map((item: number) => {
                      const [play, setplay] = useState(false);
+                     const videoRef = useRef<any>(null);
+
+                     const handleVideoEnd = () => {
+                        if (videoRef.current) {
+                           videoRef.current.currentTime = 0;
+                           videoRef.current.play();
+                        }
+                     };
+
                      return (
                         <SwiperSlide className="flex justify-center" key={item}>
                            <div
                               onMouseEnter={() => setplay(true)}
                               onMouseLeave={() => setplay(false)}
-                              className="w-fit m-auto h-[500px] max-xl:h-[400px] max-sm:h-[310px] rounded-[48px] overflow-hidden my-shadow hover:-translate-y-3 duration-200 ease-in-out"
+                              className="w-fit m-auto h-[500px] max-xl:h-[400px] max-sm:h-[340px] rounded-[48px] overflow-hidden my-shadow hover:-translate-y-3 duration-200 ease-in-out"
                            >
-                              <video height={"100%"} width={"100%"} className="w-full h-full" controls={play} autoPlay muted={!play} >
+                              <video ref={videoRef} onEnded={handleVideoEnd} height={"100%"} width={"100%"} className="w-full h-full video-player" controls={play} autoPlay muted={!play} >
                                  <source src={`/videos/video-${item}.mp4`} type="video/mp4"></source>
                               </video>
                            </div>
