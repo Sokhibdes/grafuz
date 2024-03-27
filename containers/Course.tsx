@@ -79,7 +79,7 @@ const Course: React.FC<CourseProps> = () => {
                               title="course info"
                            ></iframe>
                         </div>
-                        <Link href="https://www.youtube.com/embed/QW5zj8fZ4RY?si=v9LSgtO8xfPif5k5" target="iframe_a" className="">
+                        <Link href="https://www.youtube.com/watch?v=g2o9GcrXm4w" target="iframe_a" className="">
                            <motion.button
                               whileTap={{ scale: 0.95 }}
                               className="max-sm:w-full flex items-center max-sm:justify-center gap-3 py-3 max-lg:py-1.5 px-6 max-sm:px-4 text-[25px] max-lg:text-[18px] font-bold leading-[41px] rounded-b-xl bg-gradient-to-tr from-[#cc00ff7d] from-[10.42%] to-[#074dff80] to-[77.11%] text-white"
