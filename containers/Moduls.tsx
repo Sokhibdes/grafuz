@@ -11,7 +11,7 @@ const arr = [
    {
       id: 0,
       title: "Adobe Photoshop dasturiga kirish",
-      image: "/images/Photoshop.png",
+      image: "/images/bg-blue.svg",
 
       moduls: [
          {
@@ -43,7 +43,7 @@ const arr = [
    {
       id: 1,
       title: "Dizayn asoslari",
-      image: "",
+      image: "/images/bg-blue.svg",
 
       moduls: [
          {
@@ -67,7 +67,7 @@ const arr = [
    {
       id: 2,
       title: "SMM dizayn",
-      image: "",
+      image: "/images/bg-blue.svg",
 
       moduls: [
          {
@@ -99,7 +99,7 @@ const arr = [
    {
       id: 3,
       title: "Animatsiya asoslari",
-      image: "",
+      image: "/images/bg-blue.svg",
 
       moduls: [
          {
@@ -127,7 +127,7 @@ const arr = [
    {
       id: 4,
       title: "Animatsiya yaratish",
-      image: "",
+      image: "/images/bg-blue.svg",
 
       moduls: [
          {
@@ -147,7 +147,7 @@ const arr = [
    {
       id: 5,
       title: "Montaj asoslari",
-      image: "",
+      image: "/images/bg-blue.svg",
 
       moduls: [
          {
@@ -179,7 +179,7 @@ const arr = [
    {
       id: 6,
       title: "Youtube obloshka yasash",
-      image: "",
+      image: "/images/bg-blue.svg",
       moduls: [
          {
             id: 0,
@@ -206,7 +206,7 @@ const arr = [
    {
       id: 7,
       title: "Mijozlar bilan ishlash",
-      image: "",
+      image: "/images/bg-blue.svg",
 
       moduls: [
          {
@@ -230,7 +230,7 @@ const arr = [
    {
       id: 8,
       title: "Neyrosetlar bilan ishlash",
-      image: "",
+      image: "/images/bg-blue.svg",
 
       moduls: [
          {
@@ -254,7 +254,7 @@ const arr = [
    {
       id: 9,
       title: "VFX",
-      image: "",
+      image: "/images/bg-blue.svg",
 
       moduls: [
          {
