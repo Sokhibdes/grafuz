@@ -124,6 +124,13 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                </motion.div>
             </div>
 
+            <p className="text-center text-3xl max-xl:text-2xl max-md:text-xl max-sm:text-lg font-medium text-white mb-10">
+               Bu narxlar to'liq kurs uchun xisoblangan
+               <span className="text-violet-900">
+                  &nbsp;(Kurs 3-4 oy davom etadi)
+               </span>
+            </p>
+
             <div className="grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-x-14 max-2xl:gap-x-7 max-xl:gap-x-5 gap-y-24">
                <Link href={"https://t.me/grafuz_standart"}>
                   <Glow
