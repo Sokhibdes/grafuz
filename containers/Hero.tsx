@@ -122,7 +122,7 @@ const Hero: React.FC<HeroProps> = () => {
                      viewport={{ once: true }}
                   >
                      <h2 itemProp="author" className="max-sm:opacity-60 text-[38px] max-2xl:text-[32px] max-xl:text-[28px] max-lg:text-[22px] max-md:text-[21px] max-sm:text-lg max-md:text-center font-semibold leading-[84px] max-md:leading-[37.5px] text-white">
-                        GRAFUZ • SOHIB ABDURHAMON
+                        GRAFUZ • SOHIB ABDURAHMON
                      </h2>
                   </motion.div>
 
