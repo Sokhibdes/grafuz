@@ -70,7 +70,7 @@ const Course: React.FC<CourseProps> = () => {
                         <div className="rounded-t-xl overflow-hidden">
                            <iframe
                               className="w-full h-60 max-md:h-60"
-                              src="https://www.youtube.com/watch?v=g2o9GcrXm4w"
+                              src="https://www.youtube.com/embed/g2o9GcrXm4w?si=1foS_2YJN-eYe8uC"
                               frameBorder="0"
                               name="iframe_a"
                               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -79,7 +79,7 @@ const Course: React.FC<CourseProps> = () => {
                               title="course info"
                            ></iframe>
                         </div>
-                        <Link href="https://www.youtube.com/watch?v=g2o9GcrXm4w" target="iframe_a" className="">
+                        <Link href="https://www.youtube.com/embed/g2o9GcrXm4w?si=1foS_2YJN-eYe8uC" target="iframe_a" className="">
                            <motion.button
                               whileTap={{ scale: 0.95 }}
                               className="max-sm:w-full flex items-center max-sm:justify-center gap-3 py-3 max-lg:py-1.5 px-6 max-sm:px-4 text-[25px] max-lg:text-[18px] font-bold leading-[41px] rounded-b-xl bg-gradient-to-tr from-[#cc00ff7d] from-[10.42%] to-[#074dff80] to-[77.11%] text-white"
