@@ -288,7 +288,7 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                                     1 000 000 so‘m oyiga
                                  </p>
                                  <p className="text-[26px] font-medium text-white">
-                                    UZS
+                                     
                                  </p>
                               </div>
                               <div className="">
@@ -418,7 +418,7 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                                     1 500 000 so‘m oyiga
                                  </p>
                                  <p className="text-[26px] font-medium text-white">
-                                    UZS
+                                     
                                  </p>
                               </div>
                               <div className="">
