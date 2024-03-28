@@ -164,20 +164,20 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                                     Standart
                                  </p>
                                  <p className="bg-white px-3 py-2 font-medium leading-3 rounded-lg">
-                                    -30%
+                                    -50%
                                  </p>
                               </div>
                               <div className="flex gap-4">
                                  <p className="text-[40px] max-2xl:text-[36px] max-xl:text-[35px] max-lg:text-[24px] font-bold tracking-[0.374px] text-white">
-                                    3 000 000
+                                    800 000 so‘m oyiga
                                  </p>
                                  <p className="text-[26px] font-medium text-white">
-                                    UZS
+                                     
                                  </p>
                               </div>
                               <div className="">
                                  <p className="text-[20px] line-through text-[#ffffff52]">
-                                    4 200 000 UZS
+                                    1 600 000 UZS
                                  </p>
                               </div>
                            </div>
@@ -285,7 +285,7 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                               </div>
                               <div className="flex gap-4">
                                  <p className="text-[44px] max-2xl:text-[36px] max-xl:text-[35px] max-lg:text-[24px] font-bold tracking-[0.374px] text-white">
-                                    4 700 000
+                                    1 000 000 so‘m oyiga
                                  </p>
                                  <p className="text-[26px] font-medium text-white">
                                     UZS
@@ -293,7 +293,7 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                               </div>
                               <div className="">
                                  <p className="text-[20px] line-through text-[#ffffff52]">
-                                    6 700 000 UZS
+                                    2 000 000 UZS
                                  </p>
                               </div>
                               <div className="thunder custom-select-none w-52 absolute -right-24 max-xl:-right-20 max-lg:-right-16 top-0">
@@ -410,12 +410,12 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                                     VIP
                                  </p>
                                  <p className="bg-white px-2 py-2 font-medium leading-3 rounded-lg">
-                                    -30%
+                                    -50%
                                  </p>
                               </div>
                               <div className="flex gap-4">
                                  <p className="text-[43px] max-2xl:text-[36px] max-xl:text-[35px] max-lg:text-[24px] font-bold text-white">
-                                    5 500 000
+                                    1 500 000 so‘m oyiga
                                  </p>
                                  <p className="text-[26px] font-medium text-white">
                                     UZS
@@ -423,7 +423,7 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
                               </div>
                               <div className="">
                                  <p className="text-[20px] line-through text-[#ffffff52]">
-                                    7 800 000 UZS
+                                    3 000 000 UZS
                                  </p>
                               </div>
                            </div>
