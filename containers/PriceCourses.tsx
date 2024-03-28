@@ -125,9 +125,9 @@ const PriceCourses: React.FC<PriceCoursesProps> = () => {
             </div>
 
             <p className="text-center text-3xl max-xl:text-2xl max-md:text-xl max-sm:text-lg font-medium text-white mb-10">
-               Bu narxlar to'liq kurs uchun xisoblangan
-               <span className="text-violet-900">
-                  &nbsp;(Kurs 3-4 oy davom etadi)
+               Mazkur kurs
+               <span className="text-violet-600">
+                  &nbsp;3-4 oy davom etadi
                </span>
             </p>
 
