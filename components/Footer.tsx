@@ -37,8 +37,8 @@ const social = [
       id: 5,
       icon: "phone",
       bg: "#7800B0",
-      title: "33 600-90-09",
-      link: "tel:+998336009009",
+      title: "99 092-00-92",
+      link: "tel:+998990920092",
    },
    {
       id: 6,
